@@ -14,7 +14,7 @@ In addition to this, the following business rules should be added to the solutio
 
 - When the quantity of stock for an item is greater than 5, the price should be discounted by 10%
 - When the quantity of stock for an item is greater than 10, the price should be discounted by 20%
-- Every Monday between 12pm and 5pm, all items are discounted by 50%  _(hint, this will be hosted on a server in UTC)_
+- Every Monday between 12pm and 5pm, all items are discounted by 50%
 - Only a single discount should be applied to an item at any time, the highest discount percentage
 
 ### Getting Started
