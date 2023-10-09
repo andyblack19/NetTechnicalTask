@@ -1,5 +1,4 @@
 using DotNetInterview.API;
-using DotNetInterview.API.Controllers;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,9 +22,7 @@ namespace DotNetInterview.Tests
         [Test]
         public void Example_to_ensure_dbcontext_has_seed_data()
         {
-            var subject = new ExampleController(_dataContext);
-            var result = subject.Get();
-            Assert.That(result.Count(), Is.EqualTo(3));
+            Assert.That(_dataContext.Items.Count(), Is.EqualTo(3));
         }
     }
 }
