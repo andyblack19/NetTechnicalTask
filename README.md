@@ -2,7 +2,7 @@
 
 Implement an API that can be used to manage the inventory of a small shop in London.
 
-The API should be able to fulfil the data requirements in the images below, with support for the following capabilities:
+The API should be able to fulfil the data requirements in the [images folder](images), with support for the following capabilities:
 
 - List all items
 - Get a single item
@@ -40,5 +40,4 @@ We are looking for a solution that is easy to understand and well tested. We'll 
 to develop the code as the end result. So, commit often so we can see the steps you go through to arrive at your solution.
 
 ## Images
-
-See the [images](images) folder.
+![Stock Management UI](/Images/UI.png?raw=true)
